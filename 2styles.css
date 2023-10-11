@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://images.unsplash.com/photo-1610574010565-f4c089a0e138?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80);
+    background-size: cover;
+    font-family: sans-serif;
+    
+}
+ .form-box{
+    width: 320px;
+    height: 420px;
+    background: rgb(1, 0, 0);
+    color: rgb(17, 16, 16);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 30px;
+    text-decoration: none;
+    color: #fff;
+    
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    
+    
+    
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+    
+
+}
+
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+}
+.username{
+    background: transparent;
+    outline: none;
+}
+.button{
+    float: left;
+    flex-wrap: inherit;
+}
